@@ -14,4 +14,5 @@ We use the SHREC'14 extended large scale sketch-based shape retrieval benchmark:
 
 ### Language model (word2vec)
 * Download the original word2vec code here: https://code.google.com/archive/p/word2vec/source/default/source
-* Inside word2vec, run word2vec/trunk/demo-train-big-model-v1.sh to create a file vectors.bin which maps words to vectors
+* Inside word2vec, run demo-train-big-model-v1.sh to create a file vectors.bin which contains the model weights
+* Use python libraries such as gensim to load vectors.bin and compute vector representation of words: https://radimrehurek.com/gensim/models/word2vec.html
